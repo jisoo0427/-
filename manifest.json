@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "문학,하나둘",
+    "version": "1.0.0",
+    "description": "하루 두 문장으로 보는 세계 문학",
+
+    // 사이드바앱
+    "sidebar_action": {
+      "default_page": "index.html",  // 필수
+      "default_icon": "img/icon2.png",
+      "default_title": "문학, 하나둘",      // 선택
+      "use_navigation_bar": false
+    },
+
+    "icons": {
+      "16": "img/icon2.png",
+      "48": "img/icon2.png",
+      "128": "img/icon2.png"
+  }
+}

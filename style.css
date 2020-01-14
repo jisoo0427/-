@@ -1,0 +1,57 @@
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+}
+
+.content{
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 40px;
+}
+
+.sentence{
+  text-align: center;
+  font-size: 20px;
+}
+
+.book{
+  text-align: right;
+  font-size: 15px;
+}
+
+.showBtn{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("img/ink2.png");
+  background-size:80px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width:80px;
+  height:80px;
+}
+
+
+.page{
+  display: inline-block;
+  float: right;
+  background-size:40px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width:40px;
+  height:40px;
+}
+
+#first{
+  background-image: url("img/page1.png");
+}
+
+#second{
+  background-image: url("img/page2.png");
+}
